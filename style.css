@@ -1,0 +1,78 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-page centering */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #ffebf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    text-align: center;
+}
+
+/* Header text */
+.header_text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff4d6d;
+    margin-bottom: 20px;
+}
+
+/* Center the image */
+.gif_container img {
+    width: 250px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Button container */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Button styling */
+button {
+    font-size: 20px;
+    padding: 12px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Yes Button */
+#yesButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+/* No Button - Moves Randomly */
+#noButton {
+    background-color: #e74c3c;
+    color: white;
+    position: absolute;
+}
+
+#noButton:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+}
